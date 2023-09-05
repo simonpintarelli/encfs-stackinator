@@ -1,0 +1,6 @@
+name: encfs
+store: /user-environment
+description: encfs spack stack
+spack:
+  repo: https://github.com/spack/spack.git
+  commit: develop

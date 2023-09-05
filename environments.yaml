@@ -1,0 +1,12 @@
+gcc-env:
+  compiler:
+      - toolchain: gcc
+        spec: gcc@11
+  mpi:
+      spec: cray-mpich
+      gpu: false
+  unify: true
+  specs:
+  - encfs
+  views:
+    default:
