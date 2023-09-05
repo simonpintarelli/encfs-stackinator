@@ -28,6 +28,7 @@ class Encfs(CMakePackage):
     depends_on("libfuse")
     depends_on("openssl")
     depends_on("tinyxml2")
+    depends_on("gettext")
 
     def cmake_args(self):
 
