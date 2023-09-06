@@ -8,5 +8,6 @@ gcc-env:
   unify: true
   specs:
   - encfs
+  - python
   views:
     default:
