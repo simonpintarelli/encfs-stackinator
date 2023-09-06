@@ -20,6 +20,7 @@ Then run the commands printed by stack-config.
 
 Note:
 - `alps-cluster-config`: https://github.com/eth-cscs/alps-cluster-config
+- `bin/stack-config --develop`: `--develop` is only necessary when using `commit: develop` in `config.yaml`
 
 
 __Wipe `/dev/shm` before releasing the slurm allocation__
