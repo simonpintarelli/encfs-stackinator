@@ -9,5 +9,6 @@ gcc-env:
   specs:
   - encfs
   - python
+  - py-pip
   views:
     default:
