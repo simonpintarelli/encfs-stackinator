@@ -10,10 +10,13 @@ class Encfs(CMakePackage):
     """ EncFS provides an encrypted filesystem in user-space."""
 
     homepage = "https://github.com/vgough/encfs"
+    list_url = "https://github.com/vgough/encfs/releases"
     url = "https://github.com/vgough/encfs/releases/download/v1.9.5/encfs-1.9.5.tar.gz"
+    git = "https://github.com/eth-cscs/encfs.git"
 
     maintainers("lukasgd", "simonpintarelli")
 
+    version('master', branch='master')
     version("1.9.5", sha256="4709f05395ccbad6c0a5b40a4619d60aafe3473b1a79bafb3aa700b1f756fd63")
     version("1.9.4", sha256="20656b4ead58ebd8d5f49a5c346b59e70dc2dc31220159e5b5a115bfa1bc40d6")
     version("1.9.3", sha256="7da150aa8e281c1323b07adca8df2bba42a323b10402930a5543d3634f44ea71")
